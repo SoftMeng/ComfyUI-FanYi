@@ -12,7 +12,7 @@
 
 官网地址：https://api.fanyi.baidu.com/
 
-![fanyi.png](image%2Ffanyi.png)
+![fanyi2.png](image%2Ffanyi2.png)
 
 ### 修改配置
 
