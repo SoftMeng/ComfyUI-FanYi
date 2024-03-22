@@ -4,8 +4,8 @@ import json
 from hashlib import md5
 
 # Set your own appid/appkey.
-appid = 'xxx'
-appkey = 'xxxxx'
+appid = 'xxxxx'
+appkey = 'xxxxxxx'
 
 # For list of language codes, please refer to `https://api.fanyi.baidu.com/doc/21`
 from_lang = 'zh'
@@ -27,7 +27,7 @@ class ComfyUI_FanYi:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "text_positive": ("STRING", {"default": "a beautiful k-pop girl with soaked dress", "multiline": True}),
+                "text_positive": ("STRING", {"default": "专业摄影，使用富士胶片Provia 400X拍摄的RAW照片，HD，HDR，细节纹理，自然皮肤，生动的颜色，18岁的中国女孩，晚上，穿着连帽衫，户外，", "multiline": True}),
                 "log_prompt": (["No", "Yes"], {"default":"Yes"}),
             },
         }
