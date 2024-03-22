@@ -27,3 +27,8 @@ appkey = 'xxxxxxx'
 ### Node使用
 
 ![node.png](image%2Fnode.png)
+
+## 工作流举例
+
+SDXL模型下载地址(欢迎点赞点关注): https://www.liblib.art/modelinfo/5913fb0765ce4a4ba210cb1c898df276
+工作流文件（直接拖拽到ComfyUI的页面里即可）: [中文翻译的工作流.json](%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81.json)

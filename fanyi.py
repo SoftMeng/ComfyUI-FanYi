@@ -11,6 +11,8 @@ appkey = 'xxxxxxx'
 from_lang = 'zh'
 to_lang =  'en'
 
+map = {}
+
 endpoint = 'http://api.fanyi.baidu.com'
 path = '/api/trans/vip/translate'
 url = endpoint + path
@@ -39,6 +41,9 @@ class ComfyUI_FanYi:
     CATEGORY = "ComfyUI_Mexx"
 
     def fanyi(self, text_positive, log_prompt):
+        if text_positive in map.keys():
+            en = map[text_positive]
+            return [en]
         salt = random.randint(32768, 65536)
         sign = make_md5(appid + text_positive + str(salt) + appkey)
 
@@ -57,7 +62,8 @@ class ComfyUI_FanYi:
         en = result["trans_result"][0]["dst"]
         if log_prompt == "Yes":
             print(f"英文: {en}")
-        return en
+        map[text_positive] = en
+        return [en]
 
 
 NODE_CLASS_MAPPINGS = {
