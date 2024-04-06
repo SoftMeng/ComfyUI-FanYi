@@ -1,0 +1,96 @@
+{
+  "last_node_id": 3,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 2,
+      "type": "ShowText|pysssss",
+      "pos": [
+        600,
+        130
+      ],
+      "size": {
+        "0": 489.29296875,
+        "1": 196.09765625
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 2,
+          "widget": {
+            "name": "text"
+          },
+          "label": "文本"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6,
+          "label": "字符串"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "Professional photography, RAW photos taken using Fujifilm Provia 400X, HD, HDR, detailed textures, natural skin, vivid colors, an 18-year-old Chinese girl, wearing a hoodie at night, outdoors,"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "ComfyUI_FanYi",
+      "pos": [
+        100,
+        130
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "links": [
+            2
+          ],
+          "shape": 3,
+          "label": "text_positive",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ComfyUI_FanYi"
+      },
+      "widgets_values": [
+        "专业摄影，使用富士胶片Provia 400X拍摄的RAW照片，HD，HDR，细节纹理，自然皮肤，生动的颜色，18岁的中国女孩，晚上，穿着连帽衫，户外，",
+        "Yes"
+      ]
+    }
+  ],
+  "links": [
+    [
+      2,
+      3,
+      0,
+      2,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}

@@ -26,9 +26,26 @@ appkey = 'xxxxxxx'
 
 ### Node使用
 
-![node.png](image%2Fnode.png)
+![demo.png](image%2Fdemo.png)
 
 ## 工作流举例
 
 SDXL模型下载地址(欢迎点赞点关注): https://www.liblib.art/modelinfo/5913fb0765ce4a4ba210cb1c898df276
-工作流文件（直接拖拽到ComfyUI的页面里即可）: [中文翻译的工作流.json](%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81.json)
+工作流文件（直接拖拽到ComfyUI的页面里即可）: [workflow.json](workflow.json)
+
+
+## For More
+
+### ComfyUI
+1. 将中文翻译英文：https://github.com/SoftMeng/ComfyUI-FanYi
+2. 从图片提取自然语言：https://github.com/SoftMeng/ComfyUI_ImageToText
+3. 随机生成提示词：https://github.com/SoftMeng/ComfyUI-Prompt
+4. 通过HTML模版制作AI海报：https://github.com/SoftMeng/ComfyUI_Mexx_Poster
+5. 通过图片模版制作AI海报：https://github.com/SoftMeng/ComfyUI_Mexx_Image_Mask
+6. Java工程调用ComfyUI生成AI图片（含全自动图片馆）：https://github.com/SoftMeng/comfy-flow-api
+### Stable Diffusion WebUI
+1. 随机生成提示词：https://github.com/SoftMeng/stable-diffusion-prompt-pai
+### Fooocus
+1. 汉化：https://github.com/SoftMeng/Fooocus-zh
+### 其他
+2. 视频会议：https://github.com/SoftMeng/vue-webrtc
